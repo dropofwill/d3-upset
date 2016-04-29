@@ -1,0 +1,39 @@
+{
+  "name": "d3-upset",
+  "version": "0.0.1",
+  "description": "A minimal D3 implementation of the UpSet visualization",
+  "main": "dist/d3-upset.js",
+  "scripts": {
+    "build": "webpack -p",
+    "build-dev": "webpack -d",
+    "test": "mocha --compilers js:babel-register test/setup/node.js test/unit/**/*.js",
+    "test:watch": "npm run test -- -w",
+    "build-browser-tests": "webpack -d --config webpack.tests.config.js",
+    "build-browser-tests:watch": "npm run build-browser-tests -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dropofwill/d3-upset.git"
+  },
+  "keywords": [],
+  "author": "Will <whp3652@rit.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dropofwill/d3-upset/issues"
+  },
+  "homepage": "https://github.com/dropofwill/d3-upset",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "chai": "^3.4.1",
+    "glob": "^6.0.3",
+    "json-loader": "^0.5.3",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.12.9"
+  }
+}
