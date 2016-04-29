@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/dropofwill/d3-upset.git"
   },
-  "keywords": [],
+  "keywords": ["D3", "set visualization", "upset"],
   "author": "Will <whp3652@rit.edu>",
   "license": "MIT",
   "bugs": {
@@ -35,5 +35,11 @@
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
     "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "ramda": "^0.21.0"
+  },
+  "peerDependencies": {
+    "d3": "3"
   }
 }
