@@ -15,7 +15,11 @@
     "type": "git",
     "url": "https://github.com/dropofwill/d3-upset.git"
   },
-  "keywords": ["D3", "set visualization", "upset"],
+  "keywords": [
+    "D3",
+    "set visualization",
+    "upset"
+  ],
   "author": "Will <whp3652@rit.edu>",
   "license": "MIT",
   "bugs": {
@@ -28,12 +32,9 @@
     "babel-polyfill": "^6.3.14",
     "babel-preset-es2015": "^6.5.0",
     "babel-register": "^6.5.1",
-    "chai": "^3.4.1",
     "glob": "^6.0.3",
     "json-loader": "^0.5.3",
-    "mocha": "^2.3.4",
-    "sinon": "^1.17.2",
-    "sinon-chai": "^2.8.0",
+    "lodash": "^4.11.1",
     "webpack": "^1.12.9"
   },
   "dependencies": {
